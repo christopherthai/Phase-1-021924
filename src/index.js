@@ -10,7 +10,9 @@ function formatPrice(price) {
 
 //✅ 4. update the store name with "easley's technical books"
 
+
 //✅ 5. create a function for render footer
+
 
 //✅ 6. create a function called renderBook(book)
 
@@ -19,6 +21,10 @@ function: create HTML structure for single book and append to page
 input: a book object
 output: none
 ***/
+const li = document.createElement('li')
+const bookTitle = document.createElement('h3')
+const bookPrice = document.createElement('p') 
+
 
 //✅ 7. iterate over all the books in data and show book on page
 
